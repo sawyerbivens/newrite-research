@@ -32,9 +32,6 @@
 | ![Closed Version of Axad-p](images/outlet-v1-axad-p-UMAG.png) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-p-UMAG.png) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) with pressure UMAG |
 
 ## AXAD-PA
-
-#### UMAG Contours
-
 #### Data Statistics Table
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
@@ -44,6 +41,8 @@
 | UMAG_MAX   | 124                       | 116                     |
 | UMAX_RANGE | 124                       | 116                     |
 | UMAG_AVG   | 39                        | 36                      |
+
+#### UMAG Contours
 
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
