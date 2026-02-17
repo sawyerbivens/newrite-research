@@ -1,7 +1,14 @@
 # Comparison of CFD Simulations for Closed vs. Open Systems
 
-## AXAD-P
-#### Data Statistics Table
+This repository contains Tecplot layouts for open and closed versions of `axad-p.plt` and `axad-pa.plt` in addition to PNGs of the graphs those layouts represent. Layouts can be found in the `~/layouts` directory and PNGs in the `~/images` directory. The format for each file name is `outlet-v{outlet #}-axad-{p/pa}-{countour variable}.{ext}`. Outlet-v1 represents a closed system and Outlet-v2 represents an open system. Side-by-side comparisons of each layout's PNGs have been listed below in addition to the files' data statistics.
+
+---
+
+# AXAD-P
+
+**File Description:** Final time U,V,P,VT,UMAG,IC
+
+## Data Statistics Table
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Metric      | Closed System (outlet-v1) | Open System (outlet-v2) |
@@ -17,22 +24,27 @@
 
 
 
-#### Pressure Contours
+## Pressure Contours
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Closed System | Open System |
 |--------------|-------------|
 | ![Closed Version of Axad-p](images/outlet-v1-axad-p-P.png) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) with pressure contours | ![Open Version of Axad-p](images/outlet-v2-axad-p-P.png) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) with pressure contours |
 
-#### UMAG Contours
+## UMAG Contours
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Closed System | Open System |
 |--------------|-------------|
 | ![Closed Version of Axad-p](images/outlet-v1-axad-p-UMAG.png) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-p-UMAG.png) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) with pressure UMAG |
 
-## AXAD-PA
-#### Data Statistics Table
+---
+
+# AXAD-PA
+
+**File Description:** UA,VA,PA,UMAG Averaged values from 20s to 50s?
+
+## Data Statistics Table
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Metric      | Closed System (outlet-v1) | Open System (outlet-v2) |
@@ -42,7 +54,7 @@
 | UMAX_RANGE | 124                       | 116                     |
 | UMAG_AVG   | 39                        | 36                      |
 
-#### UMAG Contours
+## UMAG Contours
 
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
