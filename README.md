@@ -35,6 +35,17 @@
 
 #### UMAG Contours
 
+#### Data Statistics Table
+
+<!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
+| Metric      | Closed System (outlet-v1) | Open System (outlet-v2) |
+|------------|:-------------------------:|:-----------------------:|
+| UMAG_MIN   | 0                         | 0                       |
+| UMAG_MAX   | 124                       | 116                     |
+| UMAX_RANGE | 124                       | 116                     |
+| UMAG_AVG   | 39                        | 36                      |
+
+
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Closed System | Open System |
 |--------------|-------------|
