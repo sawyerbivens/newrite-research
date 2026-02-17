@@ -5,15 +5,16 @@
 ### Pressure Contours
 | Closed System | Open System |
 |--------------|-------------|
-| ![Closed Version of Axad-p](https://raw.githubusercontent.com/sawyerbivens/newrite-research/refs/heads/main/images/outlet-v1-axad-p-P.png?token=GHSAT0AAAAAADVX6XOPDZRRERCU7NM6HE5I2MU2ZBA) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) | ![Open Version of Axad-p](https://raw.githubusercontent.com/sawyerbivens/newrite-research/refs/heads/main/images/outlet-v2-axad-p-P.png?token=GHSAT0AAAAAADVX6XOOKNFLRXCIGE7CHBN62MU2ZHQ) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) |
+| ![Closed Version of Axad-p](images/outlet-v1-axad-p-P.png) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) with pressure contours | ![Open Version of Axad-p](images/outlet-v2-axad-p-P.png) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) with pressure contours |
 
 ### UMAG Contours
-(Unfinished)
+| Closed System | Open System |
+|--------------|-------------|
+| ![Closed Version of Axad-p](images/outlet-v1-axad-p-UMAG.png) <br><br> Closed version of Axad-p (outlet-v1/axad-p.plt) with pressure contours | ![Open Version of Axad-p](images/outlet-v2-axad-p-UMAG.png) <br><br> Open version of Axad-p (outlet-v2/axad-p.plt) with pressure contours |
 
 ## (Axad-pa)
 
 ### UMAG Contours
-<div class="grid" markdown>
-![Closed Version of Axad-pa](https://github.com/sawyerbivens/newrite-research/blob/main/images/outlet-v1-axad-pa-UMAG.png?raw=true)
-![Open Version of Axad-pa](https://raw.githubusercontent.com/sawyerbivens/newrite-research/refs/heads/main/images/outlet-v2-axad-pa-UMAG.png?token=GHSAT0AAAAAADVX6XOPFCPGTZQALCDAKMR22MU22TQ)
-</div>
+| Closed System | Open System |
+|--------------|-------------|
+| ![Closed Version of Axad-p](images/outlet-v1-axad-pa-UMAG.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-pa-UMAG.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with UMAG contours |
