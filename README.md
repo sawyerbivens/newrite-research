@@ -63,6 +63,9 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 | ![Closed Version of Axad-p](images/outlet-v1-axad-pa-UMAG.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-pa-UMAG.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with UMAG contours |
 
 # To-Do
+
+The following list is a tenative list of tasks we have left to complete and have completed already. I have gone more in depth on the tasks I am working on involving `axad-p.plt` and `axad-pa.plt` as I have not explored the `axad-o.plt` and `axad-o2.plt` files Daniel is working with, hence I do not have as solid of an understanding about them and do not feel fit to give tasks related to them.
+
 - [ ] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `IC` (Indicator Cell) as countours (by Sawyer).
 - [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `P` (Pressure) as contours (by Sawyer).
 - [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `UMAG` (Velocity Magnitude) as contours (by Sawyer).
@@ -77,5 +80,12 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 - [x] Create "UMAG Contours" section with images under AXAD-P section.
 - [ ] Create "PA Contours" section with images under AXAD-PA section.
 - [x] Create "UMAG Contours" section with images under AXAD-PA section.
+- [ ] Investigate concept of "pressure drop" and how it might relate to the context of `axad-p.plt` and `axad-pa.plt`
+  - [ ] Determine how to constrain dataset in Tecplot to only inlet and outlet regions to compute "pressure drop" (likely using `axad-pa.plt` NOT `axad-p.plt`)
+  - [ ] Determine if this quanity is important and if it should be included in our data tables/conclusions
+- [ ] Investigate if quantities of outlet and inlet UMAG or P/PA should be computed and reported.
+- [ ] Investigate concept of velocity uniformity (max UMAG/mean UMAG) and if it should be computed and reported.
+- [ ] Investigate concept of the low-velocity area fraction and if it should be compute computed and reported.
 - [ ] Get feedback from Dr. Selvam, and make iterations to layouts and visualizations if neccessary.
 - [ ] Begin work on comparisons and drawing conclusions.
+- [ ] Determine if we need to focus on specefic plots (ex. include P,PA contours and not UMAG for `axad-p.plt` & `axad-pa.plt`) in our conclusions and if so pick which ones
