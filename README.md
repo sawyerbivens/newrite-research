@@ -62,6 +62,8 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 |--------------|-------------|
 | ![Closed Version of Axad-p](images/outlet-v1-axad-pa-UMAG.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-pa-UMAG.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with UMAG contours |
 
+---
+
 # To-Do
 
 The following list is a tenative list of tasks we have left to complete and have completed already. I have gone more in depth on the tasks I am working on involving `axad-p.plt` and `axad-pa.plt` as I have not explored the `axad-o.plt` and `axad-o2.plt` files Daniel is working with, hence I do not have as solid of an understanding about them and do not feel fit to give tasks related to them.
