@@ -49,18 +49,28 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Metric      | Closed System (outlet-v1) | Open System (outlet-v2) |
 |------------|:-------------------------:|:-----------------------:|
+| PA_MIN     | -3971                     | -645                    |
+| PA_MAX     | 29415                     | 31062                   |
+| PA_RANGE   | 33387                     | 31708                   |
+| PA_AVG     | 4751                      | 6549                    |
 | UMAG_MIN   | 0                         | 0                       |
 | UMAG_MAX   | 124                       | 116                     |
 | UMAX_RANGE | 124                       | 116                     |
 | UMAG_AVG   | 39                        | 36                      |
 
-## UMAG Contours
-
+## PA Contours
 
 <!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
 | Closed System | Open System |
 |--------------|-------------|
-| ![Closed Version of Axad-p](images/outlet-v1-axad-pa-UMAG.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with UMAG contours | ![Open Version of Axad-p](images/outlet-v2-axad-pa-UMAG.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with UMAG contours |
+| ![Closed Version of Axad-pa](images/outlet-v1-axad-pa-PA.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with PA contours | ![Open Version of Axad-pa](images/outlet-v2-axad-pa-PA.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with PA contours |
+
+## UMAG Contours
+
+<!-- Table formatting generated with assistance from ChatGPT (OpenAI, 2026) -->
+| Closed System | Open System |
+|--------------|-------------|
+| ![Closed Version of Axad-pa](images/outlet-v1-axad-pa-UMAG.png) <br><br> Closed version of Axad-pa (outlet-v1/axad-pa.plt) with UMAG contours | ![Open Version of Axad-pa](images/outlet-v2-axad-pa-UMAG.png) <br><br> Open version of Axad-pa (outlet-v2/axad-pa.plt) with UMAG contours |
 
 ---
 
@@ -68,19 +78,19 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 
 The following list is a tenative list of tasks we have left to complete and have completed already. I have gone more in depth on the tasks I am working on involving `axad-p.plt` and `axad-pa.plt` as I have not explored the `axad-o.plt` and `axad-o2.plt` files Daniel is working with, hence I do not have as solid of an understanding about them and do not feel fit to give tasks related to them.
 
-- [ ] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `IC` (Indicator Cell) as countours (by Sawyer).
+- [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `IC` (Indicator Cell) as countours (by Sawyer).
 - [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `P` (Pressure) as contours (by Sawyer).
 - [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `UMAG` (Velocity Magnitude) as contours (by Sawyer).
-- [ ] *requires Tecplot access:* Layouts and images for `axad-pa.plt` should be completed using `PA` (Pressure Averaged) as contours (by Sawyer).
+- [x] *requires Tecplot access:* Layouts and images for `axad-pa.plt` should be completed using `PA` (Pressure Averaged) as contours (by Sawyer).
 - [x] *requires Tecplot access:* Layouts and images for `axad-pa.plt` should be completed using `UMAG` (Velocity Magnitude) as contours (by Sawyer).
 - [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `P` should be included in the Data Statistics Table for `axad-p.plt` (by Sawyer).
 - [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `UMAG` should be included in the Data Statistics Table for `axad-p.plt` (by Sawyer).
-- [ ] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `PA` should be included in the Data Statistics Table for `axad-pa.plt` (by Sawyer).
+- [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `PA` should be included in the Data Statistics Table for `axad-pa.plt` (by Sawyer).
 - [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `UMAG` should be included in the Data Statistics Table for `axad-pa.plt` (by Sawyer).
 - [ ] *requires Tecplot access:* Layouts and images for `axad-o.plt` and `axad-o2.plt` should be completed (by Daniel).
 - [x] Create "P Contours" section with images under AXAD-P section.
 - [x] Create "UMAG Contours" section with images under AXAD-P section.
-- [ ] Create "PA Contours" section with images under AXAD-PA section.
+- [x] Create "PA Contours" section with images under AXAD-PA section.
 - [x] Create "UMAG Contours" section with images under AXAD-PA section.
 - [ ] Investigate concept of "pressure drop" and how it might relate to the context of `axad-p.plt` and `axad-pa.plt`
   - [ ] Determine how to constrain dataset in Tecplot to only inlet and outlet regions to compute "pressure drop" (likely using `axad-pa.plt` NOT `axad-p.plt`)
