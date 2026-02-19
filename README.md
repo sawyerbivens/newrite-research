@@ -6,7 +6,7 @@ This repository contains Tecplot layouts for open and closed versions of `axad-p
 
 # Simulation Design
 
-The simulation has one inlet in the upper right, and has one outlet that differs in size relative to being considered "open" or "closed." Outlet-v1 represents the "closed" system and outlet-v2 represents the "open" system. The closed system has one small outlet at the lower right of the simulation area, and the open system has an outlet spanning the entire right wall (under the inlet area). The IC (Initial Cell) contours show where walls are found:
+The simulation has one inlet in the upper right, and has one outlet that differs in size relative to being considered "open" or "closed." Outlet-v1 represents the "closed" system and outlet-v2 represents the "open" system. The closed system has one small outlet at the lower right of the simulation area, and the open system has an outlet spanning the entire right wall (under the inlet area). The IC contours show where walls are found:
 
 ## IC Contours
 ![IC Contours of Axad-p](images/outlet-v1-axad-p-IC.png)
