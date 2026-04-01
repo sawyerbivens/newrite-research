@@ -87,4 +87,4 @@ The simulation has one inlet in the upper right, and has one outlet that differs
 
 **File Description:** Maximum horizontal velocity (MHV) coordinate position and strength over time
 
-<video src="https://github.com/sawyerbivens/newrite-research/blob/main/animations/axad-o2-maxhvel-compare.mp4" width="320" height="240" controls></video>
+[<video src="https://github.com/sawyerbivens/newrite-research/blob/main/animations/axad-o2-maxhvel-compare.mp4" width="320" height="240" controls></video>](https://github.com/user-attachments/assets/b5b25215-349b-46f1-9ffa-efda650681d3)
