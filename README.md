@@ -83,30 +83,8 @@ The simulation has one inlet in the upper right, and has one outlet that differs
 
 ---
 
-# To-Do
+# AXAD-O2
 
-The following list is a tenative list of tasks we have left to complete and have completed already. I have gone more in depth on the tasks I am working on involving `axad-p.plt` and `axad-pa.plt` as I have not explored the `axad-o.plt` and `axad-o2.plt` files Daniel is working with, hence I do not have as solid of an understanding about them and do not feel fit to give tasks related to them.
+**File Description:** Maximum horizontal velocity (MHV) coordinate position and strength over time
 
-- [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `IC` (Indicator Cell) as countours (by Sawyer).
-- [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `P` (Pressure) as contours (by Sawyer).
-- [x] *requires Tecplot access:* Layouts and images for `axad-p.plt` should be completed using `UMAG` (Velocity Magnitude) as contours (by Sawyer).
-- [x] *requires Tecplot access:* Layouts and images for `axad-pa.plt` should be completed using `PA` (Pressure Averaged) as contours (by Sawyer).
-- [x] *requires Tecplot access:* Layouts and images for `axad-pa.plt` should be completed using `UMAG` (Velocity Magnitude) as contours (by Sawyer).
-- [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `P` should be included in the Data Statistics Table for `axad-p.plt` (by Sawyer).
-- [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `UMAG` should be included in the Data Statistics Table for `axad-p.plt` (by Sawyer).
-- [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `PA` should be included in the Data Statistics Table for `axad-pa.plt` (by Sawyer).
-- [x] *requires Tecplot access:* Data for the minimum, maximum, range, and mean `UMAG` should be included in the Data Statistics Table for `axad-pa.plt` (by Sawyer).
-- [ ] *requires Tecplot access:* Layouts and images for `axad-o.plt` and `axad-o2.plt` should be completed (by Daniel).
-- [x] Create "P Contours" section with images under AXAD-P section.
-- [x] Create "UMAG Contours" section with images under AXAD-P section.
-- [x] Create "PA Contours" section with images under AXAD-PA section.
-- [x] Create "UMAG Contours" section with images under AXAD-PA section.
-- [ ] Investigate concept of "pressure drop" and how it might relate to the context of `axad-p.plt` and `axad-pa.plt`
-  - [ ] Determine how to constrain dataset in Tecplot to only inlet and outlet regions to compute "pressure drop" (likely using `axad-pa.plt` NOT `axad-p.plt`)
-  - [ ] Determine if this quanity is important and if it should be included in our data tables/conclusions
-- [ ] Investigate if quantities of outlet and inlet UMAG or P/PA should be computed and reported.
-- [ ] Investigate concept of velocity uniformity (max UMAG/mean UMAG) and if it should be computed and reported.
-- [ ] Investigate concept of the low-velocity area fraction and if it should be compute computed and reported.
-- [ ] Get feedback from Dr. Selvam, and make iterations to layouts and visualizations if neccessary.
-- [ ] Begin work on comparisons and drawing conclusions.
-- [ ] Determine if we need to focus on specefic plots (ex. include P,PA contours and not UMAG for `axad-p.plt` & `axad-pa.plt`) in our conclusions and if so pick which ones
+<video src="https://github.com/sawyerbivens/newrite-research/blob/master/animations/axad-o2-maxhvel-compare.mp4" width="320" height="240" controls></video>
